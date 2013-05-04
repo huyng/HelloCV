@@ -1,4 +1,6 @@
-# Example of building an OpenCV project in XCode
+# OpenCV project in XCode
+
+This is an example project designed to get you up and running with OpenCV in XCode
 
 ### Requirements:
 - OpenCV 2.4.3 (installed via homebrew)
