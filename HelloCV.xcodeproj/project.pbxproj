@@ -1,0 +1,221 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E5C204D01734D2E2008B1FC1 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E5C204CF1734D2E2008B1FC1 /* main.cpp */; };
+		E5C204D21734D2E2008B1FC1 /* HelloCV.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = E5C204D11734D2E2008B1FC1 /* HelloCV.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E5C204CA1734D2E2008B1FC1 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				E5C204D21734D2E2008B1FC1 /* HelloCV.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		E5C204CC1734D2E2008B1FC1 /* HelloCV */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HelloCV; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5C204CF1734D2E2008B1FC1 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		E5C204D11734D2E2008B1FC1 /* HelloCV.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = HelloCV.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E5C204C91734D2E2008B1FC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E5C204C31734D2E2008B1FC1 = {
+			isa = PBXGroup;
+			children = (
+				E5C204CE1734D2E2008B1FC1 /* HelloCV */,
+				E5C204CD1734D2E2008B1FC1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E5C204CD1734D2E2008B1FC1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E5C204CC1734D2E2008B1FC1 /* HelloCV */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E5C204CE1734D2E2008B1FC1 /* HelloCV */ = {
+			isa = PBXGroup;
+			children = (
+				E5C204CF1734D2E2008B1FC1 /* main.cpp */,
+				E5C204D11734D2E2008B1FC1 /* HelloCV.1 */,
+			);
+			path = HelloCV;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E5C204CB1734D2E2008B1FC1 /* HelloCV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E5C204D51734D2E2008B1FC1 /* Build configuration list for PBXNativeTarget "HelloCV" */;
+			buildPhases = (
+				E5C204C81734D2E2008B1FC1 /* Sources */,
+				E5C204C91734D2E2008B1FC1 /* Frameworks */,
+				E5C204CA1734D2E2008B1FC1 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloCV;
+			productName = HelloCV;
+			productReference = E5C204CC1734D2E2008B1FC1 /* HelloCV */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E5C204C41734D2E2008B1FC1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = HelloCv;
+			};
+			buildConfigurationList = E5C204C71734D2E2008B1FC1 /* Build configuration list for PBXProject "HelloCV" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E5C204C31734D2E2008B1FC1;
+			productRefGroup = E5C204CD1734D2E2008B1FC1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E5C204CB1734D2E2008B1FC1 /* HelloCV */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E5C204C81734D2E2008B1FC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5C204D01734D2E2008B1FC1 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E5C204D31734D2E2008B1FC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		E5C204D41734D2E2008B1FC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E5C204D61734D2E2008B1FC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E5C204D71734D2E2008B1FC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E5C204C71734D2E2008B1FC1 /* Build configuration list for PBXProject "HelloCV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5C204D31734D2E2008B1FC1 /* Debug */,
+				E5C204D41734D2E2008B1FC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E5C204D51734D2E2008B1FC1 /* Build configuration list for PBXNativeTarget "HelloCV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5C204D61734D2E2008B1FC1 /* Debug */,
+				E5C204D71734D2E2008B1FC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E5C204C41734D2E2008B1FC1 /* Project object */;
+}
