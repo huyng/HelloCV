@@ -4,7 +4,7 @@ This is an example project designed to get you up and running with OpenCV in XCo
 
 ### Requirements:
 - OpenCV 2.4.3 (installed via homebrew)
-- XCode
+- XCode 4.6.1 or greater
 - pkg-config
 
 ### How this project was created:
