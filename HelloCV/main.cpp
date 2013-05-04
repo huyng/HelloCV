@@ -9,16 +9,25 @@
 #include <iostream>
 #include "opencv2/opencv.hpp"
 
+using namespace std;
 int main(int argc, const char * argv[])
 {
+    string filename = "moon.jpg";
+    string windowName = "Hello OpenCV";
+    cv::Mat mat;
 
-
-    std::cout << "Hello, World!" << std::endl;
-    cv::namedWindow("Hello world");
-    cv::Mat mat = cv::imread("moon.jpg");
-    std::cout << mat.size();
-
+    cout << "Hello, OpenCV!" << endl;
+    cout << "Opening image = " << filename << endl;
     
+    mat = cv::imread(filename);
+    cout << "Image dimensions = " << mat.size() << endl;
+    
+    // show image in cv window
+    cv::imshow(windowName, mat);
+    
+    // wait for keypress to exit
+    cv::waitKey(0);
+
     return 0;
 }
 

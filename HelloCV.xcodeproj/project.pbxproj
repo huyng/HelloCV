@@ -25,17 +25,19 @@
 		E5C2055F1734E45B008B1FC1 /* libopencv_ts.2.4.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E5C2054E1734E45B008B1FC1 /* libopencv_ts.2.4.3.dylib */; };
 		E5C205601734E45B008B1FC1 /* libopencv_video.2.4.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E5C2054F1734E45B008B1FC1 /* libopencv_video.2.4.3.dylib */; };
 		E5C205611734E45B008B1FC1 /* libopencv_videostab.2.4.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E5C205501734E45B008B1FC1 /* libopencv_videostab.2.4.3.dylib */; };
+		E5C205631734EB51008B1FC1 /* moon.jpg in CopyFiles */ = {isa = PBXBuildFile; fileRef = E5C205621734E511008B1FC1 /* moon.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		E5C204CA1734D2E2008B1FC1 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
-			dstSubfolderSpec = 0;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 16;
 			files = (
+				E5C205631734EB51008B1FC1 /* moon.jpg in CopyFiles */,
 			);
-			runOnlyForDeploymentPostprocessing = 1;
+			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
@@ -59,7 +61,7 @@
 		E5C2054E1734E45B008B1FC1 /* libopencv_ts.2.4.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_ts.2.4.3.dylib; path = /usr/local/Cellar/opencv/2.4.3/lib/libopencv_ts.2.4.3.dylib; sourceTree = "<absolute>"; };
 		E5C2054F1734E45B008B1FC1 /* libopencv_video.2.4.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_video.2.4.3.dylib; path = /usr/local/Cellar/opencv/2.4.3/lib/libopencv_video.2.4.3.dylib; sourceTree = "<absolute>"; };
 		E5C205501734E45B008B1FC1 /* libopencv_videostab.2.4.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_videostab.2.4.3.dylib; path = /usr/local/Cellar/opencv/2.4.3/lib/libopencv_videostab.2.4.3.dylib; sourceTree = "<absolute>"; };
-		E5C205621734E511008B1FC1 /* moon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = moon.jpg; sourceTree = "<group>"; };
+		E5C205621734E511008B1FC1 /* moon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = moon.jpg; path = HelloCV/moon.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				E5C204CE1734D2E2008B1FC1 /* HelloCV */,
+				E5C205641734EBAF008B1FC1 /* Support Files */,
 				E5C2053E1734DD31008B1FC1 /* Frameworks */,
 				E5C204CD1734D2E2008B1FC1 /* Products */,
 			);
@@ -111,7 +114,6 @@
 			isa = PBXGroup;
 			children = (
 				E5C204CF1734D2E2008B1FC1 /* main.cpp */,
-				E5C205621734E511008B1FC1 /* moon.jpg */,
 			);
 			path = HelloCV;
 			sourceTree = "<group>";
@@ -146,6 +148,14 @@
 				E5C205501734E45B008B1FC1 /* libopencv_videostab.2.4.3.dylib */,
 			);
 			name = opencv;
+			sourceTree = "<group>";
+		};
+		E5C205641734EBAF008B1FC1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E5C205621734E511008B1FC1 /* moon.jpg */,
+			);
+			name = "Support Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
